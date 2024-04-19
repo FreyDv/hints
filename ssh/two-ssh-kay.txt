@@ -13,6 +13,11 @@ ssh-add ~/.ssh/id_ed25519_sw &&
 ssh-add ~/.ssh/id_ed25519_ldfm &&
 ssh-add -l
 
+for WIN to restart ssh-agent need {
+  Fix Error unable to start ssh-agent service, error: 1058(xxxx)
+  win + R, Go To services.msc
+  Find And Check Is OpenSSH Authentication Agent Service Running
+}
 
 pbcopy < ~/.ssh/id_ed25519_sw.pub
 pbcopy < ~/.ssh/id_ed25519_ldfm.pub
