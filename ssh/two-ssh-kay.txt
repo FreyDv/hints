@@ -8,7 +8,7 @@ rm ~/.ssh/id_ed25519_to_sw_from_fedora  ~/.ssh/id_ed25519_to_sw_from_fedora.pub 
 daniil.frei@wow365.com
 cd ~/.ssh && ssh-keygen -t ed25519 -C "daniil.frei@wow365.com" -N '' -f "id_ed25519_to_sw_from_fedora" &&
 cd ~/.ssh && ssh-keygen  -t ed25519 -C "ldfm0401@gmail.com" -N '' -f "id_ed25519_to_ldfm_from_fedora" &&
-chmod 600 /home/df/.ssh/id_ed25519_to_ldfm_sw_ubuntu &&
+chmod 600 /home/df/.ssh/id_ed25519_to_sw_ubuntu &&
 chmod 600 /home/df/.ssh/id_ed25519_to_ldfm_from_ubuntu &&
 eval "$(ssh-agent -s)" &&
 ssh-add -D &&
