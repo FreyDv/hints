@@ -30,8 +30,14 @@ git config --list | grep user.email
 git config --global user.name "FreyDv" && 
 git config --global user.email "ldfm0401@gmail.com" &&
 
+git config --global user.name "FreyDv" && 
+git config --global user.email "ldfm0401@gmail.com" &&
+
 git config --list;
 
 git config --list | grep user.name;
 git config --list | grep user.email;
 ```
+
+git config user.name "Daniil Frei" &&
+git config user.email "daniil.frei@wow365.com"
