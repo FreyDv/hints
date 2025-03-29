@@ -18,26 +18,25 @@ git config --list
 ---
 #### Show current name 
 ```bash
+git config --show-origin user.name
 git config --list | grep user.name
 ```
-#### Show current email
+#### Show local and global email
 ```bash
+git config --show-origin user.email
 git config --list | grep user.email
 ```
 ---
 #### Run postgres
 ```bash
-git config --global user.name "FreyDv" && 
-git config --global user.email "ldfm0401@gmail.com" &&
+git config user.name "Daniil Frei" &&
+git config user.email "daniil.frei@wow365.com"
 
 git config --global user.name "FreyDv" && 
-git config --global user.email "ldfm0401@gmail.com" &&
+git config --global user.email "ldfm0401@gmail.com";
 
 git config --list;
 
 git config --list | grep user.name;
 git config --list | grep user.email;
 ```
-
-git config user.name "Daniil Frei" &&
-git config user.email "daniil.frei@wow365.com"
