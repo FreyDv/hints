@@ -27,7 +27,7 @@ git config --show-origin user.email
 git config --list | grep user.email
 ```
 ---
-#### Run postgres
+#### Bulk setup 
 ```bash
 git config user.name "Daniil Frei" &&
 git config user.email "daniil.frei@wow365.com"
